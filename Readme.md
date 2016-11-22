@@ -2,7 +2,7 @@
 
 A simple CSS framework built to implement Twemojis _(designed by Twitter)_ easily like FontAwesome.
 
-TwemojIcons are based on Twemojis v2.2 which offers 2,477 emojis which can now be used in websites with a simple and minimal code. 
+TwemojIcons are based on Twemojis v2.2 which offers 2000+ emojis which can now be used in websites with a simple and minimal code. 
 
 ##Dependencies
 
@@ -22,7 +22,7 @@ Add the code `<i class="ti emoji_name"></i>` at the place where you want the emo
 
 You can also add `spin`, `rotate-*` and `flip-*` classes to the emojis to add the various effects.
 
-A full list of emoji names can be found <a href="http://atulbhats.com/">Here</a>.
+A full list of emoji names can be found <a href="http://atulbhats.github.io/twemojicons/icons.html">Here</a>.
 
 ---
 
@@ -34,4 +34,4 @@ Feedback is always welcome.
 
 Code licensed under the MIT License: http://opensource.org/licenses/MIT
 
-Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/ under Twitter Inc.
+Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/ by Twitter Inc.
