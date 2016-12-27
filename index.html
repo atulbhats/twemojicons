@@ -2,299 +2,348 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>TwemojIcons</title>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="twemojicons.min.css">
-<style>
-@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab';
+		<link rel="icon" content="http://twemoji.maxcdn.com/2/72x72/1f355.png" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Twemojicons" />
+		<meta property="og:description" content="Add Twemojis like font awesome." />
+		<meta property="og:url" content="atulbhats.github.io/twemojicons" />
+		<meta property="og:keywords" content="Twemoji, Twemojicons, Icons, Twemojis, AtulBhatS" />
+		<meta property="og:site_name" content="Twemojicons" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="AtulBhatS, Atul Bhat, Physics, Cosmology, Photoshop, Ambigrams, Coding, atulbhats, Mangalore.">
+		<meta name="description" content="Twemoji, Twemojicons, Icons, Twemojis, AtulBhatS">
+		<meta property="og:image" content="http://twemoji.maxcdn.com/2/72x72/1f355.png" />
+		<meta name="robots" content="index,follow">
+		<style>
+			@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab';
 
-body{
-	padding: 0;
-	margin: 0;
-	background: #fafafa;
-	font-size: 16px;
-	color: #1c1c1c;
-	font-family: "Roboto";
-}
+			body{
+				padding: 0;
+				margin: 0;
+				background: #fafafa;
+				font-size: 16px;
+				color: #1c1c1c;
+				font-family: "Roboto";
+			}
 
-/* Text Defns */
-.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}.text-justify{text-align:justify}@media only screen and (min-width:1200px){.text-lg-right{text-align:right}.text-lg-center{text-align:center}.text-lg-justify{text-align:justify}.text-lg-left{text-align:left}}@media only screen and (min-width:992px) and (max-width:1199px){.text-md-right{text-align:right}.text-md-center{text-align:center}.text-md-justify{text-align:justify}.text-md-left{text-align:left}}@media only screen and (min-width:768px) and (max-width:991px){.text-sm-right{text-align:right}.text-sm-center{text-align:center}.text-sm-justify{text-align:justify}.text-sm-left{text-align:left}}@media only screen and (max-width:767px){.text-xs-right{text-align:right}.text-xs-center{text-align:center}.text-xs-justify{text-align:justify}.text-xs-left{text-align:left}}
+			/* Text Defns */
+			.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}.text-justify{text-align:justify}@media only screen and (min-width:1200px){.text-lg-right{text-align:right}.text-lg-center{text-align:center}.text-lg-justify{text-align:justify}.text-lg-left{text-align:left}}@media only screen and (min-width:992px) and (max-width:1199px){.text-md-right{text-align:right}.text-md-center{text-align:center}.text-md-justify{text-align:justify}.text-md-left{text-align:left}}@media only screen and (min-width:768px) and (max-width:991px){.text-sm-right{text-align:right}.text-sm-center{text-align:center}.text-sm-justify{text-align:justify}.text-sm-left{text-align:left}}@media only screen and (max-width:767px){.text-xs-right{text-align:right}.text-xs-center{text-align:center}.text-xs-justify{text-align:justify}.text-xs-left{text-align:left}}
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-	font-weight: 300;
-}
+			h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+				font-weight: 300;
+			}
 
-*::selection{
-	background: #f99540;
-	color: #fff;
-}
+			*::selection{
+				background: #f99540;
+				color: #fff;
+			}
 
-p{
-	display: block;
-	margin-top: 5px;
-	margin-bottom: 10px;
-}
+			p{
+				display: block;
+				margin-top: 5px;
+				margin-bottom: 10px;
+			}
 
-code {
-    background: transparent;
-    border: 0;
-    display: inline-block;
-    padding: 0px 5px;
-    margin: 0;
-    top: 0;
-    font-size: inherit;
-    position: relative;
-    color: #f99540;
-}
+			code {
+			    background: transparent;
+			    border: 0;
+			    display: inline-block;
+			    padding: 0px 5px;
+			    margin: 0;
+			    top: 0;
+			    font-size: inherit;
+			    position: relative;
+			    color: #f99540;
+			}
 
-pre {
-    display: block;
-    border: 0;
-    padding: 10px 15px;
-    margin: 0;
-    color: #f17812;
-    background: rgba(0, 0, 0, 0.05);
-}
+			pre {
+			    display: block;
+			    border: 0;
+			    padding: 10px 15px;
+			    margin: 0;
+			    color: #f17812;
+			    background: rgba(0, 0, 0, 0.05);
+			}
 
-.usage .col-sm-7 code{
-	width: 100%;
-}
+			.usage .col-sm-7 code{
+				width: 100%;
+			}
 
-li{
-	margin-bottom: 5px;
-}
-
-
-a.btn.btn-lg.btn-primary {
-    background: #f99540;
-    border: 1px solid #f17812;
-}
-
-a{
-	color: #f99540;
-}
-
-a:hover{
-	color: #f17812;
-}
-
-
-header {
-    height: 3px;
-    background-color: #f99540;
-}
-
-.landing{
-	background: #2c2c2c;
-	color: #fff;
-	min-height: 80vh;
-	display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 60px 0;
-    position: relative;
-    margin-bottom: 25px;
-}
-
-.landing small {
-    position: absolute;
-    bottom: 5px;
-    width: 98%;
-    text-align: center;
-    left: 1%;
-}
-
-.landing .title{
-	font-size: 80px;
-	font-family: "Roboto Slab";
-}
-
-section:not(.landing){
-	padding: 20px 0;
-}
-
-footer {
-    padding: 50px 0 20px 0;
-    background: #1c1c1c;
-    color: #999;
-    line-height: 1.0;
-    border-top: 5px solid #111;
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-a,a:hover{
-	text-decoration: none;
-}
-
-footer a{
-	color:  inherit;
-	padding: 2px 5px;
-	background: #151515;
-}
+			li{
+				margin-bottom: 5px;
+			}
 
 
-footer a:hover{
-	color:#fff;
-}
+			a.btn.btn-lg.btn-primary {
+			    background: #f99540;
+			    border: 1px solid #f17812;
+			}
 
-footer iframe{
-	width: 50px;
-	position: relative;
-	top: 5px;
-}
+			a{
+				color: #f99540;
+			}
 
-.col-sm-4 > p{
-	margin-top: 25px;
-}
-
-*::selection{
-	background: #f99540;
-	color: #fff;
-}
+			a:hover{
+				color: #f17812;
+			}
 
 
-</style>
-</head>
-<body>
-	<header>
-	</header>
-	<main>
-		<section class="landing">
-			<div class="container">
-				<div>
-					<h1 class="title"><a href="http://atulbhats.github.io/twemojicons/">TwemojIcons</a></h1>
-					<h2 class="h2">Twemojis like Font Icons</h2>
-					<h3>A simple way to implement emojis and icons on your website.</h3>
-					<p>Built like <a href="http://fontawesome.io/">FontAwesome</a> for <a href="http://twitter.github.io/twemoji/">Twemojis</a></p>
-					<br/>
-					<br/>
+			header {
+			    height: 3px;
+			    background-color: #f99540;
+			}
+
+			.landing{
+				background: #2c2c2c;
+				color: #fff;
+				min-height: 80vh;
+				display:flex;
+			    flex-direction: column;
+			    flex-wrap: nowrap;
+			    justify-content: space-around;
+			    align-content: center;
+			    align-items: center;
+			    text-align: center;
+			    padding: 60px 0;
+			    position: relative;
+			    margin-bottom: 25px;
+			}
+
+			.landing small {
+			    position: absolute;
+			    bottom: 5px;
+			    width: 98%;
+			    text-align: center;
+			    left: 1%;
+			}
+
+			.landing .title{
+				font-size: 80px;
+				font-family: "Roboto Slab";
+			}
+
+			section:not(.landing){
+				padding: 20px 0;
+			}
+
+			footer {
+			    padding: 50px 0 20px 0;
+			    background: #1c1c1c;
+			    color: #999;
+			    line-height: 1.0;
+			    border-top: 5px solid #111;
+			    font-size: 14px;
+			    margin-top: 20px;
+			}
+
+			a,a:hover{
+				text-decoration: none;
+			}
+
+			footer a{
+				color:  inherit;
+				padding: 2px 5px;
+				background: #151515;
+			}
+
+
+			footer a:hover{
+				color:#fff;
+			}
+
+			footer iframe{
+				width: 50px;
+				position: relative;
+				top: 5px;
+			}
+
+			.col-sm-8 .col-sm-4 > p{
+				margin-top: 25px;
+			}
+
+			*::selection{
+				background: #f99540;
+				color: #fff;
+			}
+
+			.display-inline-block{
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+		</header>
+		<main>
+			<section class="landing">
+				<div class="container">
 					<div>
-						<a class="btn btn-lg btn-primary" href="https://github.com/atulbhats/twemojicons/raw/master/twemojicons.min.css">
-							<i class="ti floppy-disk"></i> Download
-						</a>
-						<a class="btn btn-lg btn-primary" href="http://atulbhats.github.io/twemojicons/#Documentation">
-							<i class="ti notebook"></i> Documentation
-						</a>
-					</div>
-					<small><a href="icons.html">All TwemojIcons</a> | <a href="https://github.com/atulbhats/twemojicons">Github Project</a> </small>
-				</div>
-			</div>
-		</section>
-		<div class="container">
-			<section class="about text-center">
-				<h2>Twemoj-What?</h2>
-				<br/>
-				<p>TwemojIcons is a CSS Framework to implement Twemojis on your website with minimal code like FontAwesome.</p>
-				<p>Thanks to Twemoji's CDN, TwemojIcons are fast, easy and reliable.</p>
-				<p>And the best part... They offer 2000+ Icons/Emojis unlike other font icons.</p>
-				<p>If you are looking for more info, just read about the awesomeness of FontAwesome and Twemojis and combine the two.</p>
-			</section>
-			<hr/>
-			<section class="usage" id="Documentation">
-				<div class="row">
-					<div class="col-xs-12 col-sm-7 col-sm-push-5">
-						<h3>The Code</h3>
+						<h1 class="title"><a href="http://atulbhats.github.io/twemojicons/">TwemojIcons</a></h1>
+						<h2 class="h2">Twemojis like Font Icons</h2>
+						<h3>A simple way to implement emojis and icons on your website.</h3>
+						<p>Built like <a href="http://fontawesome.io/">FontAwesome</a> for <a href="http://twitter.github.io/twemoji/">Twemojis</a></p>
 						<br/>
-						<div class="code">
-							<p>Include in the <code>&lt;head&gt;</code></p>
-							<code data-language="html">
-								<pre>&lt;link rel="stylesheet" href="path/to/twimojicons.min.css /&gt;</pre>
-							</code>
-							<p>And use </p>
-							<code data-language="html">
-								<pre>&lt;i class="ti grinning-face" &gt;&lt;/i&gt;</pre>
-							</code>
-							<p>Or you can use the alternative names for many of the twemojis</p>
-							<code data-language="html">
-								<pre>&lt;i class="ti happy" &gt;&lt;/i&gt;</pre>
-							</code>
-							<p>And the emoji will be created.</p>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-5 col-sm-pull-7">
-						<h3>How to Use</h3>
 						<br/>
-						<ol>
-							<li>Just include <code>twiojicons.min.css</code> among your webpage resources.</li>
-							<li>Use the <code>&lt;span&gt;&lt;/span&gt;</code> or <code>&lt;i&gt;&lt;/&gt;</code> where you want the icon displayed</li>
-							<li>Declare the <code>&lt;span&gt;&lt;/span&gt;</code> or <code>&lt;i&gt;&lt;/&gt;</code> tag with <code>ti</code> class along with the size <i>(optional)</i>and <a href="icons.html">icon name</a> <i>(eg.: rofl)</i> as classes.</li>
-							<li>No repeating the codefix again and again. Just type <code>ti</code> once and then simply add the emoji names, sizes and animations without the codefix.</li>
-							<li>Save your work!</li>
-						</ol>
+						<div>
+							<a class="btn btn-lg btn-primary" href="https://github.com/atulbhats/twemojicons/raw/master/twemojicons.min.css">
+								<i class="ti floppy-disk"></i> Download
+							</a>
+							<a class="btn btn-lg btn-primary" href="http://atulbhats.github.io/twemojicons/#Documentation">
+								<i class="ti notebook"></i> Documentation
+							</a>
+						</div>
+						<small><a href="icons.html">All TwemojIcons</a> | <a href="https://github.com/atulbhats/twemojicons">Github Project</a></small>
 					</div>
 				</div>
 			</section>
-			<hr/>
-			<section class="options">
-				<h3>Sizes, Spins and Rotates</h3>
-				<br/>
-				<p>Additional classes can be added to these emojis. Again.. Without the prefix.</p>
-				<div class="row">
-					<div class="col-xs-12 col-sm-4 text-xs-center  text-center">
-						<p><code>x2, x3, x4, x5</code> to increase size. default: <code>x1</code></p>
-						<div class="text-center">
-							<i class="ti pizza"></i>
-							<i class="ti pizza x2"></i>
-							<i class="ti pizza x3"></i>
-							<i class="ti pizza x4"></i>
-							<i class="ti pizza x5"></i>
-						</div>
-						<p>The above twemojis are in 5 sizes respectively</p>
-					</div>
-					<div class="col-xs-12 col-sm-8">
-						<div class="row">
-							<div class="col-xs-12 col-sm-4 text-xs-center text-center">
-								<p><code>spin</code>for spins,</p>
-								<div class="text-center">
-									<i class="ti dvd spin x5"></i>
-									<i class="ti optical-disk spin ccw x5"></i>
-								</div>
-								<p>Add <code>ccw</code> also for CCW rotation</p>
-							</div>
-							<div class="col-xs-12 col-sm-4 text-xs-center text-center">
-								<p><code>rotate-*</code> to rotate,</p>
-								<div class="text-center">
-									<i class="ti pizza rotate-180 x5"></i>
-									<i class="ti pizza rotate-90 x5"></i>
-								</div>
-								<p><code>*</code> can be <code>90, 180, 270</code></p>
-							</div>
-							<div class="col-xs-12 col-sm-4 text-xs-center text-center">
-								<p>And <code>flip-*</code> to flip.</p>
-								<div class="text-center">
-									<i class="ti pizza flip-h x5"></i>
-									<i class="ti pizza flip-v x5"></i>
-								</div>
-								<p><code>*</code> can be <code>h , v</code>.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<br/>
-			<br/>
-			<section class="text-center" style="font-size: 14px;">
-				<div class="text-muted">The SVGs are powered by Twemoji's CDN at MaxCDN and no graphics has been changed or modified.</div>
-			</section>
-		</div>
-		<footer>
 			<div class="container">
-				<div align="center">
-					<p><a href="https://github.com/atulbhats/twemojicons">Github Project</a>. 
-						<iframe src="https://ghbtns.com/github-btn.html?user=atulbhats&repo=twemojicons&type=star&count=false" frameborder="0" scrolling="0" height="20px"></iframe>
-						<iframe src="https://ghbtns.com/github-btn.html?user=atulbhats&repo=twemojicons&type=fork&count=false" frameborder="0" scrolling="0" height="20px"></iframe>
-						<iframe src="https://ghbtns.com/github-btn.html?user=atulbhats&repo=twemojicons&type=follow&count=false" frameborder="0" scrolling="0" height="20px"></iframe> .
-						<a href="http://github.com/atulbhats/">Other Projects</a></p>
-					<p>Built using <a href="https://github.com/twitter/twemoji">Twemoji</a> v2 powered by <a href="https://www.maxcdn.com/">MaxCDN</a>.</p>
-					<p>Inspired by <a href="http://fontawesome.io">Font Awesome</a>. Also thanks to <a href="http://ellekasai.github.io/twemoji-awesome/">Elle Kasai</a>. Full <a href="http://atulbhats.com/twemojicons-story">Story</a></p>
-					<p>Licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>. Graphics Licensed by Twitter Inc. under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
-					<br/><br/>
-					<p><span style="transform: rotate(180deg);display: inline-block;position: relative;top: -3px;">&copy;</span>2016 AtulBhatS.</p>	
-				</div>
+				<section class="about text-center">
+					<h2>Twemoj-What?</h2>
+					<br/>
+					<p>TwemojIcons is a CSS Framework to implement Twemojis on your website with minimal code like FontAwesome.</p>
+					<p>Thanks to Twemoji's CDN, TwemojIcons are fast, easy and reliable.</p>
+					<p>And the best part... They offer 2000+ Icons/Emojis unlike other font icons.</p>
+					<p>If you are looking for more info, just read about the awesomeness of FontAwesome and Twemojis and combine the two.</p>
+				</section>
+				<hr/>
+				<section class="usage" id="Documentation">
+					<div class="row">
+						<div class="col-xs-12 col-sm-7 col-sm-push-5">
+							<h3>The Code</h3>
+							<br/>
+							<div class="code">
+								<p>Include in the <code>&lt;head&gt;</code></p>
+								<code data-language="html">
+									<pre>&lt;link rel="stylesheet" href="path/to/twimojicons.min.css /&gt;</pre>
+								</code>
+								<p>And use </p>
+								<code data-language="html">
+									<pre>&lt;i class="ti grinning-face" &gt;&lt;/i&gt;</pre>
+								</code>
+								<p>Or you can use the alternative names for many of the twemojis</p>
+								<code data-language="html">
+									<pre>&lt;i class="ti happy" &gt;&lt;/i&gt;</pre>
+								</code>
+								<p>And the emoji will be created.</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-5 col-sm-pull-7">
+							<h3>How to Use</h3>
+							<br/>
+							<ol>
+								<li>Just include <code>twiojicons.min.css</code> among your webpage resources.</li>
+								<li>Use the <code>&lt;span&gt;&lt;/span&gt;</code> or <code>&lt;i&gt;&lt;/i&gt;</code> where you want the icon displayed.</li>
+								<li>Declare the <code>&lt;span&gt;&lt;/span&gt;</code> or <code>&lt;i&gt;&lt;/i&gt;</code> tag with <code>ti</code> class along with the size <i>(optional)</i> and <a href="icons.html">icon name</a> <i>(eg.: rofl)</i> and skin-tone <i>(wherever applicable and required)</i> as classes.</li>
+								<li>No repeating the codefix again and again. Just type <code>ti</code> once and then simply add the emoji names, sizes and animations without the codefix.</li>
+								<li>Save your work!</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+				<hr/>
+				<section class="options text-xs-center  ">
+					<h3>Sizes, Spins and Rotates</h3>
+					<br/>
+					<p>Additional classes can be added to these emojis. Again.. Without the prefix.</p>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 text-xs-center  text-center">
+							<p><code>x2, x3, x4, x5</code> to increase size. default: <code>x1</code></p>
+							<div class="text-center">
+								<i class="ti pizza"></i>
+								<i class="ti pizza x2"></i>
+								<i class="ti pizza x3"></i>
+								<i class="ti pizza x4"></i>
+								<i class="ti pizza x5"></i>
+							</div>
+							<p>The above twemojis are in 5 sizes respectively</p>
+						</div>
+						<div class="col-xs-12 col-sm-8">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 text-xs-center text-center">
+									<p><code>spin</code>for spins,</p>
+									<div class="text-center">
+										<i class="ti dvd spin x5"></i>
+										<i class="ti optical-disk spin ccw x5"></i>
+									</div>
+									<p>Add <code>ccw</code> also for CCW rotation</p>
+								</div>
+								<div class="col-xs-12 col-sm-4 text-xs-center text-center">
+									<p><code>rotate-*</code> to rotate,</p>
+									<div class="text-center">
+										<i class="ti pizza rotate-180 x5"></i>
+										<i class="ti pizza rotate-90 x5"></i>
+									</div>
+									<p><code>*</code> can be <code>90, 180, 270</code></p>
+								</div>
+								<div class="col-xs-12 col-sm-4 text-xs-center text-center">
+									<p>And <code>flip-*</code> to flip.</p>
+									<div class="text-center">
+										<i class="ti pizza flip-h x5"></i>
+										<i class="ti pizza flip-v x5"></i>
+									</div>
+									<p><code>*</code> can be <code>h , v</code>.</p>
+								</div>
+							</div>
+						</div>
+						<br/>
+					</div>
+					<br/>
+					<hr/>
+					<h3>Apart from these conventional, you can also reduce the size and add skin tones</h3>
+					<br/>
+					<p>Here are a few more added classes.</p>
+					<br/>
+					<div class="row  text-xs-center ">
+						<div class="col-xs-12 col-sm-4 col-md-4">
+							<p><code>x1-2, x1-3, x1-4</code> to reduce size.</p>
+							<div class="text-center">
+								<h1 class="display-inline-block h1" style="font-size:50px;"><i class="ti pizza"></i></h1>
+								<h1 class="display-inline-block h1" style="font-size:50px;"><i class="ti pizza x2-3"></i></h1>
+								<h1 class="display-inline-block h1" style="font-size:50px;"><i class="ti pizza x1-2"></i></h1>
+								<br class="hidden visible-sm"/>
+								<h1 class="display-inline-block h1" style="font-size:50px;"><i class="ti pizza x1-3"></i></h1>
+								<h1 class="display-inline-block h1" style="font-size:50px;"><i class="ti pizza x1-4"></i></h1>
+							</div>
+							<p>Above twemojis are in 1, 2/3, 1/2, 1-3 &amp; 1/4 sizes inside a <code>&lt;h1&gt;</code> respectively</p>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<p>Add <code>*-light|medium-light|medium|medium-dark|dark-st</code> to add 5 skin tones to human twemojicons.</p>
+							<div><i class="ti man-student"></i> : <code>&lt;i class="ti man-student"&gt;&lt;/i&gt;</code> - No Skin tone specified.</div>
+							<div><i class="ti man-student light-st"></i> : <code>&lt;i class="ti man-student light-st"&gt;&lt;/i&gt;</code> - Medium Skin Tone.</div>
+							<div><i class="ti man-student medium-light-st"></i> : <code>&lt;i class="ti man-student medium-light-st"&gt;&lt;/i&gt;</code> - Medium Light Skin Tone.</div>
+							<div><i class="ti man-student medium-st"></i> : <code>&lt;i class="ti man-student medium-st"&gt;&lt;/i&gt;</code> - Medium Skin Tone.</div>
+							<div><i class="ti man-student medium-dark-st"></i> : <code>&lt;i class="ti man-student medium-dark-st"&gt;&lt;/i&gt;</code> - Medium Dark Skin Tone.</div>
+							<div><i class="ti man-student dark-st"></i> : <code>&lt;i class="ti man-student dark-st"&gt;&lt;/i&gt;</code> - Dark Skin Tone.</div>
+						</div>
+					</div>
+				</section>
+				<br/>
+				<br/>
+				<section class="text-center" style="font-size: 14px;">
+					<div class="text-muted">The SVGs are powered by Twemoji's CDN at MaxCDN and no graphics has been changed or modified.</div>
+				</section>
 			</div>
-		</footer>
+			<footer>
+				<div class="container">
+					<div align="center">
+						<p><a href="https://github.com/atulbhats/twemojicons">Github Project</a>. 
+							<iframe src="https://ghbtns.com/github-btn.html?user=atulbhats&repo=twemojicons&type=star&count=false" frameborder="0" scrolling="0" height="20px"></iframe>
+							<iframe src="https://ghbtns.com/github-btn.html?user=atulbhats&repo=twemojicons&type=fork&count=false" frameborder="0" scrolling="0" height="20px"></iframe>
+							<iframe src="https://ghbtns.com/github-btn.html?user=atulbhats&repo=twemojicons&type=follow&count=false" frameborder="0" scrolling="0" height="20px"></iframe> .
+							<a href="http://github.com/atulbhats/">Other Projects</a></p>
+						<p>Built using <a href="https://github.com/twitter/twemoji">Twemoji</a> v2 powered by <a href="https://www.maxcdn.com/">MaxCDN</a>.</p>
+						<p>Inspired by <a href="http://fontawesome.io">Font Awesome</a>. Also thanks to <a href="http://ellekasai.github.io/twemoji-awesome/">Elle Kasai</a>. Full <a href="http://atulbhats.com/twemojicons-story">Story</a></p>
+						<p>Licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>. Graphics Licensed by Twitter Inc. under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
+						<br/><br/>
+						<p><span style="transform: rotate(180deg);display: inline-block;position: relative;top: -3px;">&copy;</span>2016 AtulBhatS.</p>	
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>

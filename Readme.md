@@ -20,6 +20,8 @@ Just include the `twemojicons.min.css` along with the resources on your website.
 
 Add the code `<i class="ti emoji_name"></i>` at the place where you want the emoji to appear on your site. 
 
+Add `skin_tone_name-st` class to add skin tone to human twemojicons.
+
 You can also add `spin`, `rotate-*` and `flip-*` classes to the emojis to add the various effects.
 
 A full list of emoji names can be found <a href="http://atulbhats.github.io/twemojicons/icons.html">Here</a>.
