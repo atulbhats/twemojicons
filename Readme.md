@@ -1,14 +1,14 @@
-#TwemojIcons
+# TwemojIcons
 
 A simple CSS framework built to implement Twemojis _(designed by Twitter)_ easily like FontAwesome.
 
 TwemojIcons are based on Twemojis v2.2 which offers 2000+ emojis which can now be used in websites with a simple and minimal code. 
 
-##Dependencies
+## Dependencies
 
-TwemojIcons depends on the Twemoji CDN by MaxCDN and obtains the scalable vector graphics for the emojis from them. 
+TwemojIcons calls the Twemoji CDN by MaxCDN and obtains the scalable vector graphics for the emojis from them. 
 
-###Usage
+### Usage
 
 TwemojIcons are simple to implement.
 
@@ -32,7 +32,7 @@ This project was built to provide an easy access to the Twemojis available for w
 
 Feedback is always welcome.
 
-###License
+### License
 
 Code licensed under the MIT License: http://opensource.org/licenses/MIT
 
